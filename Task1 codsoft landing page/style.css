@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    max-width: 80vw;
+}
+
+
+.navbar{
+    display: flex;
+    height: 67px;
+ 
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+   padding: 5%;
+}
+.entry{
+    margin-bottom: 4%;
+}
+.section1 h1{
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #37110d;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    
+}
+
+.logo{
+    font-size: 1.3rem;
+    color: rgb(227,74,56);
+}
+
+
+.sleft{
+    width: 38%;
+    align-self: flex-start;
+    
+}
+
+.sright{ 
+    width: 50%;
+    
+}
+#about h1{
+
+    font-size: 2rem ;
+}
+#about h3{
+    margin-bottom: 6%;
+}
+.atopic{
+    margin-bottom: 20%;
+}
+
+
+.abt-img img{
+    border-radius: 50%;
+    max-width: 150%;
+    height: auto;
+}
+
+#services h1{
+    font-size: 2rem;
+}
+.stopic{
+    margin-bottom: 5%;
+}
+
+.box{
+    padding: 3% 2%;
+    margin: 12px 22px;
+    
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.box h2{
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #040404;
+    margin-bottom: 6%;
+}
+
+#pricing h1{
+    font-size: 2rem;
+}
+
+.prc-box li{
+    font-size: 1.1rem;
+}
+
+.highlighted{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.highlighted1{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+
+.signup{
+    margin-top: 5%;
+}
+
+#contact{
+    padding-bottom: 4%;
+}
+#contact h1{
+    font-size: 2rem;
+}
+.logo-img{
+    margin-bottom: 3%;
+}
+.logo-img img{
+   width: 14%;
+   height: auto;
+   
+}
+.mail{
+    margin-bottom: 5px; 
+}
+
+.social{
+    
+    display: flex;
+    justify-content: center;
+    gap: 3.5%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+ }
+
+
+
