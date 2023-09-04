@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2f2a2a, #07162c);
+    flex-direction: column;
+    padding-bottom: 2.5%;
+    padding-top: 3.3%;
+}
+
+.heading {
+    color: #f24731;
+    font-weight: bolder;
+    margin-bottom: 2.5%;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.calculator {
+    border: 2px solid #717377;
+    border-radius: 8px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    background: #858589;
+}
+
+input {
+    background: #101822;
+    border: none;
+    padding: 40px 40px 24px 40px;
+    margin: 5px;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+
+    height: 60px;
+    background: linear-gradient(0deg,
+            rgba(41, 65, 88, 1) 0%,
+            rgba(31, 50, 67, 1) 100%);
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -4px -4px 20px rgba(255, 255, 255, 0.119);
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+    background: #fff;
+    color: #101822;
+}
+
+.equalBtn:hover {
+    background: #97b976;
+}
+
+.operator:hover {
+    background: #969ca6;
+    color: #101822;
+}
+
+button:active {
+    transform: scale(0.98);
+    opacity: 0.5;
+}
+
+.equalBtn {
+    background: #e16f11;
+    
+}
+
+.operator {
+   
+    color: #fff;
+    background: radial-gradient(circle,
+            rgba(51, 124, 207, 1) 0%,
+            rgba(20, 80, 163, 1) 100%);
+}
+
+.calculator-keys {
+    background: #131e2a;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px 5%;
+    padding: 15px 30px 30px 30px;
+    box-sizing: border-box;
+}
